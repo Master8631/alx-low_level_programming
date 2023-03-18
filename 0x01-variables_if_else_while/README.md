@@ -1,1 +1,1 @@
-last digit analysis
+Learning variables, if, else, while
