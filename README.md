@@ -1,1 +1,1 @@
-Hello C-world
+_putchar
