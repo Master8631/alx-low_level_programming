@@ -1,1 +1,1 @@
-_putchar
+more pointers, arrays and strings
