@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _memcpy - a function that copies memory area
- * @dest: memory where is stored
- * @src: memory where is copied
+ * @dest: memory location where is stored
+ * @src: where memory is copied
  * *@n: number of bytes
  *
  * Return: copied memory with n byted changed
