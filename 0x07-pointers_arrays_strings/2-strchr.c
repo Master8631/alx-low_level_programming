@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strchr - Entry point of first occurrence
- * @s: the input value
- * @c: input value
- * Return: 0 (Success)
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
-char *_strchar(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i = 0;
 
@@ -16,3 +16,4 @@ char *_strchar(char *s, char c)
 	}
 	return (0);
 }
+
