@@ -52,11 +52,14 @@ char *str_concat(char *s1, char *s2)
 		conct[j] = s1[j];
 		j++;
 	}
-	while (s2[cj] != '\0')
+	while (s2[cj]
+	!= '\0')
 	{
-		conct[j] = s2[cj];
-		j++, cj++;
+	conct[j] = s2[cj];
+	j++,
+	cj++;
 	}
 	conct[j] = '\0';
 	return (conct);
 }
+
