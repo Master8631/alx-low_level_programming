@@ -8,15 +8,15 @@
  */
 char *argstostr(int cd, char **fm)
 {
-	int i, n, r = 0, l = 0;
+	int c, n, r = 0, l = 0;
 	char *str;
 
 	if (cd == 0 || fm == NULL)
 		return (NULL);
 
-	for (i = 0; i < cd; i++)
+	for (c = 0; c < cd; c++)
 	{
-		for (n = 0; fm[i][n]; n++)
+		for (n = 0; fm[c][n]; n++)
 			l++;
 	}
 	l += cd;
@@ -24,11 +24,11 @@ char *argstostr(int cd, char **fm)
 	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; i < cd; i++)
+	for (c = 0; c < cd; c++)
 	{
-		for (n = 0; fm[i][n]; n++)
+		for (n = 0; fm[c][n]; n++)
 		{
-			str[r] = fm[i][n];
+			str[r] = fm[c][n];
 			r++;
 		}
 		if (str[r] == '\0')
