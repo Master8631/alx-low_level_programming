@@ -12,6 +12,7 @@ size_t print_list(const list_t *h)
 	size_t s = 0;
 
 	while (h)
+	/* initializes the code here */
 	{
 		if (!h->str)
 			printf("[0] (nil)\n");
